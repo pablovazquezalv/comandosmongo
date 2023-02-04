@@ -1,2 +1,3 @@
 db.nombrebasededatos.find():
 db.nombrebasededatos.deleteMany({storeLocation:"Denver"})
+db.nombrebasededatos.sort()
