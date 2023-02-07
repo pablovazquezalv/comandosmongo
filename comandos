@@ -4,3 +4,5 @@ db.nombrebasededatos.deleteMany({storeLocation:"Denver"})
 db.nombrebasededatos.sort()
 db.coleccion.insertOne() (Inserta un elemento, ejemplo: db.coleccion.insertOne({campo: ""}))
 
+//BORRAR UNA COLECCION
+db.Cars.drop()
